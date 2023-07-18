@@ -6,7 +6,7 @@ public class fabinnaciseries {
           int b =1;
           int c =1;
 
-          for(int i=1;i<=n;i++){
+          for(int i=0;i<=n;i++){
             System.out.println(a);
             a=b;
             b=c;
@@ -14,7 +14,7 @@ public class fabinnaciseries {
           } 
     }
     public static void main(String[] args) {
-        fabinnaci(10);
+        fabinnaci(5);
     }
     
 }
