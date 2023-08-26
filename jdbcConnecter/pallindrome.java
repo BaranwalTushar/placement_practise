@@ -4,7 +4,7 @@ import java.util.Scanner;
 class Palindrome{
     public static boolean checkpallindrome(String str){
         StringBuilder sb = new StringBuilder(str);
-        sb.reverse();
+       sb.reverse();
         return str.equals(sb.toString());//important
     }
 
