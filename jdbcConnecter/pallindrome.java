@@ -1,19 +1,13 @@
 package jdbcConnecter;
 
 import java.util.Scanner;
-class Palindrome{
-    public static boolean checkpallindrome(String str){
-        StringBuilder sb = new StringBuilder(str);
-       sb.reverse();
-        return str.equals(sb.toString());//important
-    }
 
-}
+
 
 public class pallindrome {
    
     public static void main(String[] args) {
-        /* 
+         
           int n,r,sum=0,reversed;
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a number");
@@ -31,11 +25,11 @@ public class pallindrome {
         else{
             System.out.println("not pallindrome");
         }
-        */
+        
        
       //using String builder
       
-        System.out.println( Palindrome.checkpallindrome("madam"));
+        
       
 
     }
