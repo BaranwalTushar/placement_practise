@@ -2,17 +2,17 @@ package jdbcConnecter;
 
 public class pallindrome_accenture {
 
-    public static String ispalindrome(String str){
+    public static int ispalindrome(String str){
         StringBuilder sb = new StringBuilder(str);
         sb.reverse();
         if(str.equals(sb.toString())){
-            return "1";
+            return 1;
         }
-        return "0";
+        return 0;
     }
     public static void main(String[] args) {
 
-        String tushar = "";
+        int tushar;
         tushar = ispalindrome("abba");
         System.out.println(tushar);
         
