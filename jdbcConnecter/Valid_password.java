@@ -21,10 +21,10 @@ public class Valid_password {
                     result1 =1;
                 }
                 if(ch==' ' || ch=='\\'){
-                   result2 =1;
+                   result2 =0;
                 }
             }
-            if(result==1&&result1==1&&result2!=1){
+            if(result==1&&result1==1&&result2==0){
                 System.out.println(1);
             }
             else{
