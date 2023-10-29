@@ -12,25 +12,25 @@ public class roman_to_integer {
        result.put('C',100);
        result.put('D',500);
        result.put('M',1000);
-        
-        int romanvalue = 0;
-        int prevvalue = 0;
-        for(int i =s.length()-1;i>=0;i--){
-            int currentvalue =result.get(s.charAt(i));
-            if(currentvalue<prevvalue){
-                romanvalue -= currentvalue;
-            } 
-            else{
-                romanvalue += currentvalue;
-            }
-            currentvalue = prevvalue;
 
+       int current_value = result.get(s.charAt(s.length()-1));
+       for(int i=s.length()-2;i>=0;i--){
+        if(result.get(s.charAt(i) < result.get(s.charAt(i+1))) != null){
+
+            current_value -= result.get(s.charAt(i));
         }
-        return romanvalue;
+        else{
+            current_value += result.get(s.charAt(i));
+        }
+       }
+       return current_value;
+        
+        
+      
     }
     public static void main(String[] args) {
          
-        String s = "MCMXCIV";
+        String s = "MC";
         int Answer = romanToInt(s);
         System.out.println(Answer);
     }

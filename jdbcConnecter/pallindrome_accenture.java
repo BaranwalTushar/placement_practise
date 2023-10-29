@@ -13,7 +13,7 @@ public class pallindrome_accenture {
     public static void main(String[] args) {
 
         int tushar;
-        tushar = ispalindrome("abba");
+        tushar = ispalindrome("aca");
         System.out.println(tushar);
         
             }
