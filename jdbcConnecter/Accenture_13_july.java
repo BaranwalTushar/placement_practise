@@ -1,7 +1,5 @@
 package jdbcConnecter;
 
-import java.util.Scanner;
-
 public class Accenture_13_july {
 
     public static int nucleous(int n, char ch[],int []arr){
