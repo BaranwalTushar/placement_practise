@@ -18,6 +18,8 @@ public class greater_right_side {
         max = temp;
        }
        System.out.println(Arrays.toString(arr));
+
+
         
     }
     
