@@ -1,20 +1,20 @@
 package jdbcConnecter;
 
+
 public class pallindrome_accenture {
 
-    public static int ispalindrome(String str){
-        StringBuilder sb = new StringBuilder(str);
+    public static boolean ispalindrome(String str){
+       StringBuilder sb = new StringBuilder(str);
         sb.reverse();
         if(str.equals(sb.toString())){
-            return 1;
+           return true ;
         }
-        return 0;
+        return false;
     }
     public static void main(String[] args) {
-
-        int tushar;
-        tushar = ispalindrome("aca");
-        System.out.println(tushar);
+        
+        String tushar = "abba";
+       System.out.println(ispalindrome(tushar));
         
             }
     

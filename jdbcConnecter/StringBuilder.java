@@ -8,4 +8,7 @@ public class StringBuilder {
     public void reverse() {
     }
 
+    public void append(char ch) {
+    }
+
 }
