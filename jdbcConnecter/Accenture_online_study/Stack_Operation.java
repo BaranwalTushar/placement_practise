@@ -29,6 +29,7 @@ public class Stack_Operation {
             }
             newnode.next = head;
             head = newnode;
+            
         }
         public static int pop(){
             if(isEmpty()){
@@ -49,12 +50,13 @@ public class Stack_Operation {
         }
     }
     public static void main(String[] args) {
-
+        
         Stack s = new Stack();
         s.push(1);
         s.push(2);
         s.push(3);
         s.push(4);
+
 
         while(!s.isEmpty()){
             System.out.println(s.peek());
