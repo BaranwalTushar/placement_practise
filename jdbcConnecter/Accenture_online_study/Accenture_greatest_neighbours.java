@@ -26,7 +26,7 @@ public class Accenture_greatest_neighbours {
             r= mid-1; 
         }
        }
-       return 0;
+       return 1;
 
     }
     public static void main(String[] args) {
